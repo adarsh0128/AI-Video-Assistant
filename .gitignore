@@ -1,0 +1,107 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Python Build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ChromaDB
+chroma/
+chroma_db/
+vectorstore/
+db/
+
+# FAISS
+*.faiss
+*.pkl
+index/
+
+# Model Cache
+.cache/
+huggingface_cache/
+models/
+
+# Whisper Output
+transcripts/
+summaries/
+exports/
+
+# Audio & Video Files
+downloads/
+uploads/
+audio/
+videos/
+temp/
+tmp/
+
+# Generated Files
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.flac
+*.aac
+*.ogg
+
+# PDF & TXT Exports
+*.pdf
+*.txt
+
+# SQLite
+*.sqlite3
+*.db
+
+# Misc
+*.bak
+*.swp
+*.tmp
